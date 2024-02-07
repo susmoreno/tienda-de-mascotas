@@ -1,0 +1,149 @@
+*{
+    max-width: 1600px;
+}
+html{
+margin: auto;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+color: #e4b1b1;
+}
+
+body{
+    background-color: rgb(250, 205, 236);
+    font-family: 'Lexend', sans-serif;
+}
+.navbar{
+    background-color: rgb(95, 48, 122);
+    color: #fff;
+}
+
+.navbar a{
+    color: whitesmoke;
+}
+.navbar a:hover {
+    color: rgb(221, 184, 224)
+}
+
+
+h1 {
+    color:#2a3051 ;
+        font-size: 2rem;
+}
+ p{
+    font-size: 1rem;
+}
+
+.img{
+    width: 350px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 60px;
+}
+
+h2{
+    color: rgb(69, 7, 88);
+    font-weight: 700;
+}
+strong{
+    color: rgb(92, 5, 92);
+}
+
+.btn-danger {
+    background-color: #da7c85;
+    border-color:none;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+    color: #fff;
+}
+/*administracion*/
+.table-custom {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table-custom th, .table-custom td {
+    padding: 12px;
+    text-align: left;
+    border: 2px solid rgb(143, 92, 150);
+    background-color: rgb(224, 162, 219);
+    color: rgb(70, 3, 70);
+}
+
+.table-custom th {
+    background-color: rgb(93, 23, 102);
+    color: white;
+}
+
+.img-fluid-custom {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.btn-action {
+    display: inline-block;
+    margin-right: 5px;
+}
+.btn-warning {
+    background-color: #2a3051;
+    color: white;
+    border: none;
+    margin: 10px;
+    width: 70px;
+}
+.btn-warning:hover{
+    background-color: purple;
+    color: #fff;
+}
+.btn-danger{
+width: 70px;
+margin: 10px;
+border: none;
+}
+
+.btn-primary{
+background-color: purple;
+color: #fff;
+ border: none;
+}
+.btn-primary:hover{
+    background-color: #2a3051;
+    color: #fff;
+}
+label{
+color: purple;
+font-weight: 700;
+}
+/*inicio login*/
+.imag{
+    border-radius: 40px;
+    height: 300px;
+    width: auto;
+    margin: 40px 0;
+
+}
+.hola{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.hola div{
+    margin: 30px;
+}
+footer{
+    width: 100%;
+    background-color: #2a3051;
+    color: #fff;
+}
+
+@media (max-width: 1000px){
+    .hola{
+        flex-direction: column;
+    }
+}

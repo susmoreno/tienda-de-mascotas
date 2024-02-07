@@ -1,0 +1,563 @@
+body{
+    background-color:rgb(250, 240, 240);
+    background-image: url("../img/footer/fondo.png");
+    background-size: 500px;
+    max-width:1500px;
+    margin: auto;
+}
+
+
+p{
+    font-family: 'Lexend', sans-serif;
+    font-size: 1rem;
+}
+
+.card h2{
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.9rem;
+}
+
+.h2{
+    color: rgb(250, 240, 240);
+    padding: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+.form-switch .form-check-input:focus {
+    border-color: rgba(0, 0, 0, 0.25);
+    outline: 0;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+}
+.perroma{
+    width: 90%;
+    padding-top: 11rem;
+    display: block;
+    margin: auto;
+}
+.form-switch .form-check-input {
+    height: 18px;
+    width: 36px;
+}
+.form-switch .form-check-input:checked {
+    background-color: #ffb7bc;
+    border-color: #ffb7bc;
+    border: none;
+}
+
+.fondopatitas{
+    background-image: url(../img/patitasbg.jpg);
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    background-color:#2a3051;
+    padding: 10px;
+    font-family: 'Lora', serif;
+   
+}
+.fondobanner{
+    background-image: url(../img/inicio/coralbg.jpg);
+
+}
+
+.conten{
+    margin: 30px;
+    padding: 40px;
+}
+
+
+.row {
+    padding:0;
+}
+
+.botoncolor{
+    background-color: #2a3051; 
+    border-radius: 10px;
+    display: block;
+     border:none;
+     font-size: 1.2rem;
+     margin: 10px auto;
+     text-align: center;
+     width: 300px;
+     padding: 0.5rem;
+     color: whitesmoke;
+     text-decoration: none;
+    }
+
+    .botoncolor:hover{
+        background-color: #5967a1;
+        color: whitesmoke ;
+        }
+
+.letrabonita{
+    font-family: 'Lora', serif;
+    color: #2a3051;
+    font-size: 2.3rem;
+}
+
+
+.banner{
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+}
+
+span{
+    font-size: 20px;
+}
+
+h2{
+    color: #272d53;
+     text-align: center;
+     padding-top: 5px;
+     padding-bottom: 10px;
+}
+
+
+.parrafo{
+    color: rgb(1, 1, 53);
+    width: 700px;
+    margin: 20px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btn-primary{
+    background-color:#272d53;
+    border: none;
+}
+.perrito{
+    width: 30%;
+
+}
+/*Navegador*/
+.navbar{
+    background: linear-gradient(#ffd1c2 , #ffd5c7 );
+    padding: 10px;
+}
+.dropdown-menu{
+    background-color: #272d53;
+    padding: 10px;
+    border-radius: 20px;
+}
+.dropdown-item{
+    color: white;
+    font-family: 'Lora', serif;
+}
+.dropdown-item:hover{
+    background-color: #f1d5ca;
+    border-radius: 10px;
+    color: #272d53;
+}
+
+.nav-link:hover, .nav-link:active{
+    color: rgb(132, 99, 146);
+}
+.nav-link{
+    font-family: 'Lora', serif; 
+    color:#272d53;
+    margin: 0 20px;
+    font-size: 1.3rem;
+   justify-content: center;
+}
+
+.dropdown-menu{
+    background-color: #272d53;
+    padding: 10px;
+    border-radius: 20px;
+}
+.dropdown-item{
+    color: white;
+}
+.dropdown-item:hover{
+    background-color: #f1d5ca;
+    border-radius: 10px;
+    color: #272d53;
+}
+/*404*/
+.info{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.cont{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.card{
+    background-color:#f1d5ca;
+    margin: 3rem;
+    width: 300px;
+}
+
+
+strong{
+    color: rgb(90, 22, 90);
+}
+/*FINALIZAR*/
+.product-item{
+    font-size: 1.5rem;
+}
+.container-pago{
+    padding: 20px;
+    background-color: beige;
+    margin: auto;
+    color: #282f59;
+}
+.btn-warning{
+    background-color: rgb(167, 53, 157);
+    color: #ece5e2;
+    border: none;
+}
+.btn-warning:hover{
+    background-color: #282f59;
+    color: #ece5e2;
+}
+td{
+    color: #4557ca;
+}
+tr{
+    color: #2e366a;
+}
+.btn-danger{
+    background-color: rgb(216, 129, 129);
+    border: none;
+}
+/*footer*/
+
+footer{
+    margin:auto;
+    color: white;
+    background-color: #282f59;
+    font-size: 1.2rem;
+    margin-top: 30px;
+    padding: 5px;
+}
+
+.row{
+    --bs-gutter-x: 0;
+}
+
+.pr{
+    padding-right: 0.5rem;
+
+}
+
+
+/*Inicio*/
+ .nosotros{
+    background:linear-gradient(#1c2039, #2e366a );;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+ .nosotros >div{
+    margin: auto;
+    padding: 20px;
+    color: white;
+    width: 500px;
+ }
+
+ .chicarosa{
+    width: 50%;
+    display: block;
+    margin: auto;
+ }
+
+ .comidas{
+    background:linear-gradient(#b5dcec, #91d4ee );;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+ }
+
+ .comidas>div{
+    width: 500px;
+    margin: 20px;
+ }
+
+ .fotito{
+    width: 40%;
+ }
+
+ .cartas{
+    background-color: #ece5e2;
+    padding: 20px;
+ }
+ .cartass{
+    background-color: #f1d5ca;
+    padding: 10px;
+    width: 250px;
+    border: none;
+    margin: auto;
+    box-shadow: 1px 1px 1px #272d5367;  
+ }
+ .cartass p{
+    padding:10px;
+    color: rgb(19, 17, 114);
+    text-align: center;
+ }
+
+/* Productos ver mas*/
+
+.productos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fondoproduc{
+    margin-top: 60px;
+   height: 400px;
+
+}
+.vermas{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 500px;
+    margin: 20px;
+}
+h3{
+    color: rgb(20, 20, 107);
+}
+.foto {
+    object-fit: cover; /* O el valor que mejor se adapte a tu diseño */
+  }
+  
+
+
+/*Filtro*/
+.filtro{
+    color: blueviolet;
+    background-color: beige;
+    padding: 10px;
+    width: 150px;
+    margin: 10px 10%;
+    border-radius: 10px;
+}
+
+.marvel{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+/*Datos alumnos*/
+
+.alumnos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+.cj{
+   margin: 20px;
+   background-color: #f1d5ca;
+   padding: 20px;
+   border-radius: 10px;
+}
+.cj>img{
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+}
+.cj >p{
+    color: #1c2039;
+    text-align: center;
+    margin: 10px;
+}
+
+/*zoom effect*/
+.zoom {
+    padding: 35px;
+    transition: transform .2s; /* Animation */
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.5);
+  }
+
+/*tags en productos*/
+
+.tag{
+    background-color: rgb(252, 177, 86);
+    padding: 3%;
+}
+
+.tag2{
+    background-color: rgb(253, 116, 116);
+    padding: 3%;
+}
+
+.tag3{
+    background-color: rgb(196, 138, 215);
+    padding: 3%;
+}
+
+@media (max-width: 764px){
+
+.parrafo{
+    width: 90%;
+    margin: auto;
+}
+
+.productos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.perroma{
+    width: 80%;
+    padding-top: 0;
+
+}
+
+.unimg{
+    width: 400px;
+}
+.vermas{
+    width: 90%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.nosotros> div{
+    width: 100%;
+}
+
+.h3{
+    text-align: center;
+}
+
+.foto{
+    width: 100%;
+}
+
+.fondopatitas{
+  width: 100%;
+}
+
+}
+@media (max-width: 600px){
+.chicarosa, .fotito{
+    width: 100%;
+}
+
+.perroma{
+    width: 80%;
+    padding-top: 0;
+
+}
+
+.botoncolor{
+    width: 100%;
+}
+}
+@media (max-width:1100px){
+    .nosotros {
+        flex-direction: column-reverse;
+}
+}
+
+/*buscador*/
+.carta{
+background-color: pink;
+}
+.carta h2{
+    margin: 20px;
+}
+/*CARRITO*/
+@media (max-width: 767px) {
+    .table {
+        display: block;
+    }
+
+    .table thead,
+    .table tbody,
+    .table th,
+    .table td,
+    .table tr {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .table thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .table tr {
+        margin-bottom: 15px;
+    }
+
+    .table td {
+        border: none;
+        border-bottom: 1px solid #ddd;
+        position: relative;
+        padding-left: 50%;
+        text-align: left;
+    }
+
+    .table td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    .table td:nth-of-type(1):before {
+        content: "Imagen";
+    }
+
+    .table td:nth-of-type(2):before {
+        content: "Datos del producto";
+    }
+
+
+    .table td:nth-of-type(4):before {
+        content: "Precio";
+    }
+
+    .table td:nth-of-type(5):before {
+        content: "Subtotal";
+    }
+
+    .table td:nth-of-type(6):before {
+        content: "Eliminar";
+    }
+}
+
+
+.table tr{
+    background-color: #ddc7e6;
+}
+.table img{
+    width: 200px;
+}
+.fw-bold{
+    margin:20px 0 ;
+}
